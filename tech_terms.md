@@ -1,0 +1,3 @@
+- Message Broker: A message broker (also known as an integration broker or interface engine[1]) is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver. 
+  - RabbitMQ, Kafka (designed by LinkedIn, now under Apache), ActiveMQ, Kestrel
+- Thyemleaf: a modern server-side Java template engine for both web and standalone environments. Sort of like JSP (JavaServer Page)
