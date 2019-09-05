@@ -2,3 +2,4 @@
   - RabbitMQ, Kafka (designed by LinkedIn, now under Apache), ActiveMQ, Kestrel
 - Thyemleaf: a modern server-side Java template engine for both web and standalone environments. Sort of like JSP (JavaServer Page)
 - Synchronization primitives: _mutex_ and _semaphore_
+- Atomicity: unbreakability
