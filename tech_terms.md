@@ -3,3 +3,4 @@
 - Thyemleaf: a modern server-side Java template engine for both web and standalone environments. Sort of like JSP (JavaServer Page)
 - Synchronization primitives: _mutex_ and _semaphore_
 - Atomicity: unbreakability
+- Critical section: a critical section is group of instructions/statements or region of code that need to be executed atomically. Common solution: acquire lock, process critical section, release lock
