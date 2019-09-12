@@ -4,3 +4,4 @@
 - Synchronization primitives: [_mutex_ and _semaphore_](https://www.geeksforgeeks.org/mutex-vs-semaphore/#_=_)
 - Atomicity: unbreakability
 - Critical section: a critical section is group of instructions/statements or region of code that need to be executed atomically. Common solution: acquire lock, process critical section, release lock
+- RSocket: Application protocol providing Reactive Streams semantics
