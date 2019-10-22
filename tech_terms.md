@@ -7,4 +7,4 @@
 - RSocket: Application protocol providing Reactive Streams semantics
 - CSRF: Cross-site Request Forgery
 - ES6: ECMAScript6, ECMA Script 2015, JavaScript6
-- IIFE: Immediately Invoked Function Expression in JavaScript. Basically an anonymous function that runs immediately after it's defined. 
+- IIFE: Immediately Invoked Function Expression a.k.a Self-Executing Anonymous Function in JavaScript. Basically an anonymous function that runs immediately after it's defined. 
