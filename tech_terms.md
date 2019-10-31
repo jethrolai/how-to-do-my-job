@@ -9,3 +9,4 @@
 - ES6: ECMAScript6, ECMA Script 2015, JavaScript6
 - IIFE: Immediately Invoked Function Expression a.k.a Self-Executing Anonymous Function in JavaScript. Basically an anonymous function that runs immediately after it's defined. 
 - HOC: or HoC, Higher-Order Componenet. React technique. Kind of like interface with defaults in Java. 
+- Protocol Buffers: a language and platform neutral mechanism for serialization and deserialization of structured data, which is proclaimed by Google, its creator, to be much faster, smaller and simpler than other types of payloads, such as XML and JSON, say, binary-based message payload.
