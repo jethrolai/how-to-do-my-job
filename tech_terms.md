@@ -1,4 +1,4 @@
-Software Engineering Jargon
+# Software Engineering Jargons
 
 
 - 1NF First Normal Form
