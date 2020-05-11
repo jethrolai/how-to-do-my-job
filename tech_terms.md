@@ -1,3 +1,67 @@
+Software Engineering Jargon
+
+
+- 1NF First Normal Form
+    - No column has dividable/atomic data. (City: NYC,SF) violates the 1NF. 
+    - Technically, city1, city2 columns do not violate 1NF but conceptually, the rule is violated. 
+- 2NF Second Normal Form
+    - Must be in 1NF
+    - In the case of composite primary key, a non-attribute depends only on the partial primary key. 
+- 3NF Third Normal Form
+    - Must be in 2NF
+    - No transitive dependency. e.g. bank_id (non primary key), bank_name (another non primary key). The bank name should be moved to a bank table with id and name. 
+- 3.5NF BCNF ????
+- at
+    - A function in C. It means ASCII to integer.
+- Backtracking
+    - An algorithmic technique. Solving segments where the final result is combination of the solved segments. 
+- Constrained programming
+    - In nested blocks/loops, more restrictions are added each level to reduce the iterations. 
+- COP 
+    - Component Oriented Programming
+- CSRF
+    - Cross-Site Request Forgery
+- CTE
+    - Common Table Expression in SQL. Basically, temp table as a result of a sub query 
+    - https://www.essentialsql.com/introduction-common-table-expressions-ctes/
+- Elixir
+    - A dynamic functional programming language running on Erlang VM
+- External sorting
+    - sorting when the input cannot fit in the memory. 
+- Go
+    - Golang, a programming language
+- Julia
+    - A programming language
+- ML
+    - Machine Learning
+- Morris Traversal
+    - https://www.educative.io/edpresso/what-is-morris-traversal
+    - Space O(0) traversal algorithm
+- NLP
+    - Natural Language Processing
+- OOP
+    - Object oriented programming
+- Rust
+    - A programming language
+- Side effect
+    - When a function does something else other than its original intention or something the name does not imply. 
+- Structural programming
+    - Control structure —> like what it reads, the code structure that controls the program/executions. 
+        - Sequence —> just one instruction to another
+        - Selection —> if/else/switch
+        - Iteration/repetition —> while/for
+        - Branching —> goto. Should not be used. This is an uncontrolled structure. 
+    - Edsger Dijkstra’s rules of structured programming
+        - Every function and every block should have one entry and one exit. 
+        - Only one return in one function. 
+        - No break or continue statements in a loop. 
+        - Never, ever any goto statements. 
+- Temporal coupling
+    - when code is dependent on time in some way
+- Floyd's Tortoise and Hare
+    - using two pointers moving in two different speeds to detect cycle. 
+
+[ Unsorted ] 
 - Message Broker: A message broker (also known as an integration broker or interface engine[1]) is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver. 
   - RabbitMQ, Kafka (designed by LinkedIn, now under Apache), ActiveMQ, Kestrel
 - Thyemleaf: a modern server-side Java template engine for both web and standalone environments. Sort of like JSP (JavaServer Page)
