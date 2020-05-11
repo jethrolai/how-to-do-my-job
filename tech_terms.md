@@ -1,51 +1,51 @@
 # Software Engineering Jargons
 
 
-- 1NF First Normal Form
+## 1NF First Normal Form
     - No column has dividable/atomic data. (City: NYC,SF) violates the 1NF. 
     - Technically, city1, city2 columns do not violate 1NF but conceptually, the rule is violated. 
-- 2NF Second Normal Form
+## 2NF Second Normal Form
     - Must be in 1NF
     - In the case of composite primary key, a non-attribute depends only on the partial primary key. 
-- 3NF Third Normal Form
+## 3NF Third Normal Form
     - Must be in 2NF
     - No transitive dependency. e.g. bank_id (non primary key), bank_name (another non primary key). The bank name should be moved to a bank table with id and name. 
-- 3.5NF BCNF ????
-- atoi
+## 3.5NF BCNF ????
+## atoi
     - A function in C. It means ASCII to integer.
-- Backtracking
+## Backtracking
     - An algorithmic technique. Solving segments where the final result is combination of the solved segments. 
-- Constrained programming
+## Constrained programming
     - In nested blocks/loops, more restrictions are added each level to reduce the iterations. 
-- COP 
+## COP 
     - Component Oriented Programming
-- CSRF
+## CSRF
     - Cross-Site Request Forgery
-- CTE
+## CTE
     - Common Table Expression in SQL. Basically, temp table as a result of a sub query 
     - https://www.essentialsql.com/introduction-common-table-expressions-ctes/
-- Elixir
+## Elixir
     - A dynamic functional programming language running on Erlang VM
-- External sorting
+## External sorting
     - sorting when the input cannot fit in the memory. 
-- Go
+## Go
     - Golang, a programming language
-- Julia
+## Julia
     - A programming language
-- ML
+## ML
     - Machine Learning
-- Morris Traversal
+## Morris Traversal
     - https://www.educative.io/edpresso/what-is-morris-traversal
     - Space O(0) traversal algorithm
-- NLP
+## NLP
     - Natural Language Processing
-- OOP
+## OOP
     - Object oriented programming
-- Rust
+## Rust
     - A programming language
-- Side effect
+## Side effect
     - When a function does something else other than its original intention or something the name does not imply. 
-- Structural programming
+## Structural programming
     - Control structure —> like what it reads, the code structure that controls the program/executions. 
         - Sequence —> just one instruction to another
         - Selection —> if/else/switch
@@ -56,21 +56,33 @@
         - Only one return in one function. 
         - No break or continue statements in a loop. 
         - Never, ever any goto statements. 
-- Temporal coupling
+## Temporal coupling
     - when code is dependent on time in some way
-- Floyd's Tortoise and Hare
+## Floyd's Tortoise and Hare
     - using two pointers moving in two different speeds to detect cycle. 
 
 [ Unsorted ] 
-- Message Broker: A message broker (also known as an integration broker or interface engine[1]) is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver. 
+## Message Broker
+    - A message broker (also known as an integration broker or interface engine[1]) is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver. 
   - RabbitMQ, Kafka (designed by LinkedIn, now under Apache), ActiveMQ, Kestrel
-- Thyemleaf: a modern server-side Java template engine for both web and standalone environments. Sort of like JSP (JavaServer Page)
-- Synchronization primitives: [_mutex_ and _semaphore_](https://www.geeksforgeeks.org/mutex-vs-semaphore/#_=_)
-- Atomicity: unbreakability
-- Critical section: a critical section is group of instructions/statements or region of code that need to be executed atomically. Common solution: acquire lock, process critical section, release lock
-- RSocket: Application protocol providing Reactive Streams semantics
-- CSRF: Cross-site Request Forgery
-- ES6: ECMAScript6, ECMA Script 2015, JavaScript6
-- IIFE: Immediately Invoked Function Expression a.k.a Self-Executing Anonymous Function in JavaScript. Basically an anonymous function that runs immediately after it's defined. 
-- HOC: or HoC, Higher-Order Componenet. React technique. Kind of like interface with defaults in Java. 
-- Protocol Buffers: a language and platform neutral mechanism for serialization and deserialization of structured data, which is proclaimed by Google, its creator, to be much faster, smaller and simpler than other types of payloads, such as XML and JSON, say, binary-based message payload.
+## Thyemleaf
+    - a modern server-side Java template engine for both web and standalone environments. Sort of like JSP (JavaServer Page)
+## Synchronization primitives
+    - [_mutex_ and _semaphore_](https://www.geeksforgeeks.org/mutex-vs-semaphore/#_=_)
+## Atomicity
+    - unbreakability
+## Critical section
+    - a critical section is group of instructions/statements or region of code that need to be executed atomically. Common solution: acquire lock, process critical section, release lock
+## RSocket
+    - Application protocol providing Reactive Streams semantics
+## CSRF
+    - Cross-site Request Forgery
+## ES6
+    - ECMAScript6, ECMA Script 2015, JavaScript6
+## IIFE
+    - Immediately Invoked Function Expression a.k.a Self-Executing Anonymous Function in JavaScript. Basically an anonymous function that runs immediately after it's defined. 
+    - https://flaviocopes.com/javascript-iife/
+## HOC
+    - or HoC, Higher-Order Componenet. React technique. Kind of like interface with defaults in Java. 
+## Protocol Buffers
+    - a.k.a. protobuffa. A language and platform neutral mechanism for serialization and deserialization of structured data, which is proclaimed by Google, its creator, to be much faster, smaller and simpler than other types of payloads, such as XML and JSON, say, binary-based message payload.
