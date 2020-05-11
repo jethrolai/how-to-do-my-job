@@ -11,7 +11,7 @@ Software Engineering Jargon
     - Must be in 2NF
     - No transitive dependency. e.g. bank_id (non primary key), bank_name (another non primary key). The bank name should be moved to a bank table with id and name. 
 - 3.5NF BCNF ????
-- at
+- atoi
     - A function in C. It means ASCII to integer.
 - Backtracking
     - An algorithmic technique. Solving segments where the final result is combination of the solved segments. 
