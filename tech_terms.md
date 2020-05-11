@@ -32,6 +32,9 @@
     - Golang, a programming language
 ## Julia
     - A programming language
+## Kadane’s Algorithm
+    - linear algorithm for finding the max sum of a subarray of an array. 
+    - https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 ## ML
     - Machine Learning
 ## Morris Traversal
