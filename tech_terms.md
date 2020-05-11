@@ -19,7 +19,7 @@ Software Engineering Jargon
     - In nested blocks/loops, more restrictions are added each level to reduce the iterations. 
 - COP 
     - Component Oriented Programming
-- CSRF
+- CSRF
     - Cross-Site Request Forgery
 - CTE
     - Common Table Expression in SQL. Basically, temp table as a result of a sub query 
