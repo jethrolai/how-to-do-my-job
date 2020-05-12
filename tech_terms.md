@@ -56,9 +56,16 @@
     - https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 ## ML
     - Machine Learning
+## MMF
+    - Minimum Marketable Feature
+## MMP
+    - Minimum Marketable Product
 ## Morris Traversal
     - https://www.educative.io/edpresso/what-is-morris-traversal
     - Space O(0) traversal algorithm
+## MVP
+    - Minimum Viable Product
+    - Not to get confused with MMP or MMF.
 ## NLP
     - Natural Language Processing
 ## OOP
