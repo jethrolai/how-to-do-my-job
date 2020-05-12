@@ -1,4 +1,4 @@
-# Software Engineering Jargons
+# Software Engineering Jargons and Definitions
 
 
 ## 1NF First Normal Form
@@ -11,6 +11,12 @@
     - Must be in 2NF
     - No transitive dependency. e.g. bank_id (non primary key), bank_name (another non primary key). The bank name should be moved to a bank table with id and name. 
 ## 3.5NF BCNF ????
+## [Agile Software Development Manifesto](http://agilemanifesto.org/)
+    - Individuals and interactions              >>>> processes and tools    
+    - Working software                          >>>> comprehensive documentation
+    - Customer collaboration                    >>>> contract negotiation
+    - Responding to change                      >>>> following a plan
+    - [Principles behind the Agile Manifestor](http://agilemanifesto.org/principles.html)
 ## atoi
     - A function in C. It means ASCII to integer.
 ## Backtracking
