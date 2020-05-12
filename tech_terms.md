@@ -12,11 +12,24 @@
     - No transitive dependency. e.g. bank_id (non primary key), bank_name (another non primary key). The bank name should be moved to a bank table with id and name. 
 ## 3.5NF BCNF ????
 ## [Agile Software Development Manifesto](http://agilemanifesto.org/)
+#### Goals
     - Individuals and interactions              >>>> processes and tools    
     - Working software                          >>>> comprehensive documentation
     - Customer collaboration                    >>>> contract negotiation
     - Responding to change                      >>>> following a plan
-    - [Principles behind the Agile Manifestor](http://agilemanifesto.org/principles.html)
+#### [Principles](http://agilemanifesto.org/principles.html)
+    - Customer satisfaction
+    - Welcome changing requirements
+    - Frequent cycles of delivery
+    - Stakeholder collaboration
+    - Culture of trust, support & motivation
+    - Fact-to-face communication
+    - Working software is the metric
+    - Sustainable development
+    - Technical excellence
+    - Simplicity
+    - Self organizatng teams
+    - Team reflection
 ## atoi
     - A function in C. It means ASCII to integer.
 ## Backtracking
