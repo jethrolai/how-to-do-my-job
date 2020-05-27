@@ -34,6 +34,10 @@
     - A function in C. It means ASCII to integer.
 ## Backtracking
     - An algorithmic technique. Solving segments where the final result is combination of the solved segments. 
+## CAP Theorem
+    - a.k.a **Brewer's theorem**
+    - Consistency, Availability, Partition Torlerance
+    - It's only possible to fulfill at most two of them. 
 ## Constrained programming
     - In nested blocks/loops, more restrictions are added each level to reduce the iterations. 
 ## COP 
