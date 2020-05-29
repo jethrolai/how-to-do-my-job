@@ -47,6 +47,8 @@
 ## CTE
     - Common Table Expression in SQL. Basically, temp table as a result of a sub query 
     - https://www.essentialsql.com/introduction-common-table-expressions-ctes/
+## Dutch National Flag Program
+    - Sorting algorithm: 3 way partitions
 ## Elixir
     - A dynamic functional programming language running on Erlang VM
 ## External sorting
