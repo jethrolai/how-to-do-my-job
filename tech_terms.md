@@ -34,6 +34,13 @@
     - A function in C. It means ASCII to integer.
 ## Backtracking
     - An algorithmic technique. Solving segments where the final result is combination of the solved segments. 
+## Bloom Filter
+    - space optimized alternative to hash table
+    - false positive rate
+        - when negative, true negative
+        - when positive, probably positive but not guarantee. 
+    - multiple hash functions to define a set of positions for storing the flags (bits). 
+    - when all flgas are true, the value exists. 
 ## CAP Theorem
     - a.k.a **Brewer's theorem**
     - Consistency, Availability, Partition Torlerance
@@ -57,6 +64,9 @@
     - Golang, a programming language
 ## Julia
     - A programming language
+## JWT
+    - JSON Web Token
+    - Storing authentication information in the frontend environment. Commonly in local or session storage but cookies can works too. 
 ## Kadane’s Algorithm
     - linear algorithm for finding the max sum of a subarray of an array. 
     - https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
