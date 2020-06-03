@@ -90,6 +90,8 @@
     - A programming language
 ## Side effect
     - When a function does something else other than its original intention or something the name does not imply. 
+## Strobogrammatic Number
+    - A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
 ## Structural programming
     - Control structure —> like what it reads, the code structure that controls the program/executions. 
         - Sequence —> just one instruction to another
