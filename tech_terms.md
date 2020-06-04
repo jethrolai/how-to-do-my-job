@@ -60,6 +60,8 @@
     - A dynamic functional programming language running on Erlang VM
 ## External sorting
     - sorting when the input cannot fit in the memory. 
+## Floyd's Tortoise and Hare
+    - using two pointers moving in two different speeds to detect cycle. 
 ## Go
     - Golang, a programming language
 ## Julia
@@ -105,8 +107,9 @@
         - Never, ever any goto statements. 
 ## Temporal coupling
     - when code is dependent on time in some way
-## Floyd's Tortoise and Hare
-    - using two pointers moving in two different speeds to detect cycle. 
+## Work Stealing
+    - Available thread stealing tasks from busy threads. 
+    - A strategy to reduce the contention in multi-threaded applications. 
 
 [ Unsorted ] 
 ## Message Broker
