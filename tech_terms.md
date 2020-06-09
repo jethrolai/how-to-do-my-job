@@ -44,7 +44,13 @@
 ## CAP Theorem
     - a.k.a **Brewer's theorem**
     - Consistency, Availability, Partition Torlerance
-    - It's only possible to fulfill at most two of them. 
+    - It's only possible to fulfill two of them at the same time
+    - Partition Tolerance
+        - The system continues to run despite the number of messages being delyaed by the network between nodes. A system that is partition-tolerant can sustain any amount of network failure that doesn't result in a failure of the entire network. 
+    - High Consistency
+        - All nodes have the same data at the same time.
+    - High Availability
+        - All requests have a proper response, success or failure. 
 ## Constrained programming
     - In nested blocks/loops, more restrictions are added each level to reduce the iterations. 
 ## COP 
