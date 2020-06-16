@@ -94,6 +94,8 @@
     - Natural Language Processing
 ## OOP
     - Object oriented programming
+## RFC
+    - Request for comments
 ## Rust
     - A programming language
 ## Side effect
