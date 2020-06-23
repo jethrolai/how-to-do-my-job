@@ -51,6 +51,10 @@
         - All nodes have the same data at the same time.
     - High Availability
         - All requests have a proper response, success or failure. 
+## Chaos Engineering
+    - breaking things on purposes in production as a process to learn and build more resilient systems. 
+## Chaos Monkey
+    - A process randomly terminates instances in production to ensure that engineers implement their services to be resilient to instance failures.
 ## Constrained programming
     - In nested blocks/loops, more restrictions are added each level to reduce the iterations. 
 ## COP 
