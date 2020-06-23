@@ -91,6 +91,8 @@
 ## Morris Traversal
     - https://www.educative.io/edpresso/what-is-morris-traversal
     - Space O(0) traversal algorithm
+## MTTF
+    - Mean time to fail
 ## MVP
     - Minimum Viable Product
     - Not to get confused with MMP or MMF.
