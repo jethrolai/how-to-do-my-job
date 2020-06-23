@@ -100,6 +100,9 @@
     - Natural Language Processing
 ## OOP
     - Object oriented programming
+## RAID
+    - Redundant Array of Inexpensive Disks
+    - Redundant Array of Independent Disks
 ## RFC
     - Request for comments
 ## Rust
