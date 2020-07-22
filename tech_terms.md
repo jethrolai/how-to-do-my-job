@@ -100,6 +100,8 @@
     - Natural Language Processing
 ## OOP
     - Object oriented programming
+## Quadratic
+    - Quadratic time: O(n^2)
 ## RAID
     - Redundant Array of Inexpensive Disks
     - Redundant Array of Independent Disks
